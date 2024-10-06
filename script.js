@@ -5,7 +5,7 @@ const chatInput = document.querySelector(".chat-input textarea");
 const sendChatBtn = document.querySelector(".chat-input span");
 
 let userMessage = null; 
-const API_KEY = "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";
+const API_KEY = "your api key here";
 const inputInitHeight = chatInput.scrollHeight;
 
 const createChatLi = (message, className) => {
@@ -18,7 +18,7 @@ const createChatLi = (message, className) => {
 }
 
 const generateResponse = (chatElement) => {
-    const API_URL = "https://api.openai.com/v1/chat/completions";
+    const API_URL = "create your api and post link here";
     const messageElement = chatElement.querySelector("p");
 
     
